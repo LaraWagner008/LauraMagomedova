@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио Джона Смита</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="profile">
+                    <img src="images/profile.jpg" alt="Джон Смит" class="profile-img">
+                    <h1>Лаура Магомедова</h1>
+                    <p class="subtitle">IT-специалист | Разработка и данные</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#about">Обо мне</a></li>
+                        <li><a href="#skills">Навыки</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#experience">Опыт</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="about" class="card">
+                <h2>Обо мне</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Меня зовут Лаура и я начинающий IT-специалист. </p>
+                        <div class="highlight-box">
+                            <p>Я интересуюсь созданием цифровых продуктов и мне нравится видеть, как они приносят реальную пользу.</p>
+                        </div>
+                        <p>Специализируюсь на разработке, автоматизации и работе с данными. Открыта к разным направлениям в IT.</p>
+                    </div>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Возраст:</span>
+                            <span class="detail-value">24</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Город:</span>
+                            <span class="detail-value">Москва</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Образование:</span>
+                            <span class="detail-value">МАИ</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Email:</span>
+                            <span class="detail-value">lara.wagner2020@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="card">
+                <h2>Навыки</h2>
+                <div class="skills-list">
+                    <div class="skill-row">
+                        <span class="skill-category">Языки</span>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">SQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-row">
+                        <span class="skill-category">Веб</span>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">Node.js</span>
+                        </div>
+                    </div>
+                    <div class="skill-row">
+                        <span class="skill-category">Данные</span>
+                        <div class="skill-tags">
+                            <span class="skill-tag">SQLite</span>
+                            <span class="skill-tag">Нейронные сети</span>
+                            <span class="skill-tag">Моделирование</span>
+                        </div>
+                    </div>
+                    <div class="skill-row">
+                        <span class="skill-category">Инструменты</span>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">Qt</span>
+                            <span class="skill-tag">MS Word</span>
+                            <span class="skill-tag">MS Excel</span>
+                            <span class="skill-tag">MS PowerPoint</span>
+                        </div>
+                    </div>
+                    <div class="skill-row">
+                        <span class="skill-category">Иностранные языки</span>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Английский (B2)</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio" class="card">
+                <h2>Портфолио</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="images/oilspill.png" alt="OilSpill" loading="lazy" style="object-position: top;">
+                        <div class="portfolio-overlay">
+                            <h3>OilSpill</h3>
+                            <p>Программа, определяющая парк ВС для обнаружения и ликвидации нефти</p>
+                            <a href="https://github.com/LaraWagner008/OilSpill" class="portfolio-link">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/currency_tracker.png" alt="Курс валют" loading="lazy" style="object-position: top;">
+                        <div class="portfolio-overlay">
+                            <h3>Курс валют</h3>
+                            <p>Графики валют (USD, EUR, BTC, ETH) с конвертером</p>
+                            <a href="https://larawagner008.github.io/Currency-Tracker/" class="portfolio-link">Подробнее</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="portfolio-item">
+                        <img src="images/to-do-list.png" alt="Проект 4" loading="lazy" style="object-position: top;">
+                        <div class="portfolio-overlay">
+                            <h3>Список задач</h3>
+                            <p>Возможность создавать, редактировать, зачёркивать и удалять задачи</p>
+                            <a href="https://larawagner008.github.io/TO-DO-List/" class="portfolio-link">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/parser.png" alt="Парсер цен на iPhone" loading="lazy" style="object-position: top;">
+                        <div class="portfolio-overlay">
+                            <h3>Парсер цен на iPhone</h3>
+                            <p>Данные о ценах на телефон из 5 магазинов техники и электроники</p>
+                            <a href="https://larawagner008.github.io/iphone17Pro_parser/" class="portfolio-link">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/weather-app.png" alt="Проект 5" loading="lazy" style="object-position: top;">
+                        <div class="portfolio-overlay">
+                            <h3>Прогноз погоды</h3>
+                            <p>Прогноз погоды на ближайшие 3 дня (доступ через VPN)</p>
+                            <a href="https://larawagner008.github.io/WeatherApp/" class="portfolio-link">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience" class="card">
+                <h2>Образование</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024 - 2026</div>
+                        <div class="timeline-content">
+                            <h3>Московский Авиационный Институт</h3>
+                            <p>Магистратура, Системный анализ (Институт 7 - Робототехнические и интеллектуальные системы)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020 - 2024</div>
+                        <div class="timeline-content">
+                            <h3>Московский Авиационный Институт</h3>
+                            <p>Бакалавриат, Системный анализ (Институт 1 - Авиационная техника)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2014 - 2019</div>
+                        <div class="timeline-content">
+                            <h3>Республиканский многопрофильный лицей-интернат для одарённых детей (РМЛИ ДОД)</h3>
+                            <p>Профиль: компьютерно-информационный</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="card">
+                <h2>Связь со мной</h2>
+                <div class="contact-content">
+                    <form class="contact-form" id="contact-form">
+                        <input type="hidden" name="access_key" value="ea787e6e-2186-4c02-bc13-15a3e0c62970">
+                        <input type="hidden" name="subject" value="Сообщение с сайта-портфолио">
+                        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Ваш e-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Введите сообщение" required></textarea>
+                        </div>
+                        <button type="submit">Отправить</button>
+                        <p class="form-status" id="form-status" role="status"></p>
+                    </form>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>lara.wagner2020@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>8(988)-270-24-76</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Москва, Россия</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/LaraWagner008" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://t.me/larawagner8" target="_blank" rel="noopener" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                            <a href="https://hh.ru/resume/1b7f61a0ff1114b4880039ed1f775242766957" target="_blank" rel="noopener" aria-label="HeadHunter"><i class="fas fa-briefcase"></i></a>
+                        </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Все права защищены.</p>
+    </footer>
+
+    <script src="Portfolio.js"></script>
+</body>
+</html>
