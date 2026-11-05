@@ -1,5 +1,25 @@
 document.addEventListener('DOMContentLoaded', function() {
 
+    // Баннер о cookie
+    const cookieBanner = document.getElementById('cookie-banner');
+    const cookieAccept = document.getElementById('cookie-accept');
+    let cookieAccepted = false;
+
+    try {
+        cookieAccepted = localStorage.getItem('cookieAccepted') === '1';
+    } catch (e) {}
+
+    if (!cookieAccepted) {
+        cookieBanner.hidden = false;
+    }
+
+    cookieAccept.addEventListener('click', function() {
+        cookieBanner.hidden = true;
+        try {
+            localStorage.setItem('cookieAccepted', '1');
+        } catch (e) {}
+    });
+
     // Отправка формы
     const form = document.getElementById('contact-form');
     const statusEl = document.getElementById('form-status');

@@ -536,6 +536,35 @@ footer {
     font-size: 0.9rem;
 }
 
+.cookie-banner {
+    position: fixed;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    max-width: 520px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 20px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    font-size: 0.9rem;
+    color: var(--light-accent);
+    z-index: 1000;
+}
+
+.cookie-banner[hidden] { display: none; }
+
+.cookie-banner button {
+    flex-shrink: 0;
+    padding: 8px 20px;
+}
+
 @media (max-width: 768px) {
     .about-content,
     .contact-content {
